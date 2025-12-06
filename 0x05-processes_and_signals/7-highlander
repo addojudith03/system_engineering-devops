@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+# This script displays 'To infinity and beyond' 
+# Expectations: In between each iteration of the loop, add a sleep 2
 
-trap 'printf "I am invincible!!!\n"' SIGTERM
-
+trap 'echo "I am invincible!!!"' SIGTERM
 while true
 do
     echo "To infinity and beyond"
