@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# This script displays 'To infinity and beyond' 
-# Expectations: In between each iteration of the loop, add a sleep 2
+# A Bash script that prints a message forever and handles SIGTERM by saying "I am invincible!!!"
 
 trap 'echo "I am invincible!!!"' SIGTERM
+
 while true
 do
     echo "To infinity and beyond"
