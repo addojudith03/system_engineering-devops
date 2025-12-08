@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A Bash script that prints a message forever and handles SIGTERM by saying "I am invincible!!!"
 
-trap 'echo "I am invincible!!!"' SIGTERM
+trap 'echo "I am invincible!!!"' 
 
 while true
 do
