@@ -8,6 +8,3 @@ do
     echo "To infinity and beyond"
     sleep 2
 done
-
-# A Bash script that stops the 4-to_infinity_and_beyond process without using kill or killall
-pkill -f 7-highlander
